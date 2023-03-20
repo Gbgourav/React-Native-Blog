@@ -48,7 +48,7 @@ const Screen1 = () => {
       });
       const data = await response.json(); // Parse response body as JSON
       console.log(data); // Log the parsed data
-      setBlogs(data.data); // Assuming you have a state variable called 'blogs' to store the fetched data
+      setBlogs(data.data); // variable called 'blogs' to store the fetched data
       setIsLoading(false);
     } catch (error) {
       console.error(error);
